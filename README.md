@@ -1,6 +1,8 @@
 # Simplicity
 
-Very simple, clean and readable (I think so) Hugo theme.
+基于 eshlox 原版和老版本 [Simplicity](https://github.com/eshlox/simplicity) 进行了自定义修改的 Hugo 主题
+
+Very simple, clean and readable Hugo theme.
 
 - Responsive design
 - Clean typography
@@ -16,7 +18,7 @@ Very simple, clean and readable (I think so) Hugo theme.
 
 # Demo
 
-You can preview this theme on my personal blog - [eshlox.net](https://eshlox.net).
+You can preview this theme on my personal blog - [读写错误](https://ioerr.github.io/).
 
 ## Table of Contents
 
@@ -38,7 +40,7 @@ Run the following commands in your Hugo site directory to download the theme:
 ```
 mkdir themes
 cd themes
-git clone https://github.com/eshlox/simplicity.git
+git clone https://github.com/calon/simplicity.git
 ```
 
 ### exampleSite
@@ -96,14 +98,6 @@ You can also use lightbox plugin to display image in full-screen mode ([baguette
 ```
 {{< figure src="/images/image-1.jpg" title="Photo" lightbox="true" >}}
 ```
-
-## Development
-
-This theme uses `webpack`. You can install all required libraries using [yarn](https://github.com/yarnpkg/yarn), just run `yarn install`.
-
-When you change SCSS or Javascript files, you can compile changes using `npm run build` command.
-
-To review your changes, you can use `npm run start` command which will run `hugo serve` with content from `exampleSite`. 
 
 ## Browsers support
 
