@@ -1,10 +1,8 @@
-baseURL = "https://example.com"
+baseURL = "https://example.org/"
 defaultContentLanguage = "en"
-disqusShortname = "test"
 enableEmoji = true
-enableRobotsTXT = true
-googleAnalytics = ""
 languageCode = "en-us"
+paginate = 4
 pygmentsCodeFences = true
 pygmentsStyle = "native"
 pygmentsUseClasses =  true
@@ -14,11 +12,21 @@ title = "Simplicity - Hugo theme"
   gravatarEmail = "test@example.com"
   homepageText = "Simplicity"
   name = "Przemysław `eshlox` Kołodziejczyk"
-  rss = "/posts/index.xml"
-[imaging]
-  anchor = "smart"
-  resampleFilter = "box"
-  quality = 75
+[params]
+  description = "A blog about everything."
+  disqusShortname = "test"
+  googleAnalytics = ""
+  licence = "[Some Rights Reserved](http://creativecommons.org/licenses/by-sa/4.0/)."
+[permalinks]
+  posts = "/:year/:month/:day/:slug/"
+[pygmentsOptions]
+  linenos = false
+[outputs]
+  home = ["HTML"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML"]
 [[menu.pages]]
   name = "Projects"
   weight = -100
@@ -29,19 +37,3 @@ title = "Simplicity - Hugo theme"
   weight = -90
   identifier = "photos"
   url = "/photos/"
-[outputs]
-  home = ["HTML"]
-  page = ["HTML"]
-  section = ["HTML", "RSS"]
-  taxonomy = ["HTML", "RSS"]
-  taxonomyTerm = ["HTML"]
-[params]
-  adsenseClient = ''
-  adsenseSlot = ''
-  description = "A blog about everything."
-  licence = "[Some Rights Reserved](http://creativecommons.org/licenses/by-sa/4.0/)."
-  displayPostLanguage = true
-[permalinks]
-  posts = "/:year/:month/:day/:slug/"
-[pygmentsOptions]
-  linenos = false

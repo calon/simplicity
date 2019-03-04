@@ -7,11 +7,20 @@ other = "List of posts"
 [homePage]
 other = "Homepage"
 
+[previous]
+other = "previous"
+
+[next]
+other = "next"
+
 [categories]
 other = "Categories"
 
 [tags]
 other = "Tags"
 
-[pages]
-other = "Pages"
+[loggedAs]
+other = "You're logged in as"
+
+[404Page]
+other = "Don't Panic! This page does not exist (404)."
