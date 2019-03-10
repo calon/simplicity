@@ -33,7 +33,7 @@
       <div>
           <a href="mailto:{{ $.Site.Author.email }}?subject=评论《{{ .Title }}》&body={{ .Permalink }}" onclick="window.open(this.href); return false;">邮件讨论</a>
           &#47;
-          <a href="http://twitter.com/intent/tweet?url={{ .Permalink }}&text= @{{ $.Site.Author.twitter_id }} {{ .Title }}&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
+          <a href="https://twitter.com/intent/tweet?url={{ .Permalink }}&text= @{{ $.Site.Author.twitter_id }} {{ .Title }}&tw_p=tweetbutton" onclick="window.open(this.href); return false;">Twitter 评论</a>
       </div>
       {{ template "_internal/disqus.html" . }}
     </footer>
