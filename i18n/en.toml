@@ -16,6 +16,9 @@ other = "next"
 [categories]
 other = "Categories"
 
+[projects]
+other = "Projects"
+
 [tags]
 other = "Tags"
 
